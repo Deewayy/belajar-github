@@ -221,6 +221,52 @@ button:focus-visible {
 }
 
 /* ==========================================================
+   EXPERIENCE
+   ========================================================== */
+.experience {
+  padding: 24px 0;
+  border-top: 1px solid var(--line);
+}
+.experience:first-of-type { border-top: none; padding-top: 0; }
+
+.experience__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.experience__role {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 1.25rem;
+  margin: 0;
+  color: var(--text);
+}
+
+.experience__period {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+
+.experience__org {
+  font-size: 14px;
+  color: var(--accent-teal);
+  margin: 4px 0 10px;
+}
+
+.experience__desc {
+  color: var(--text-dim);
+  max-width: 60ch;
+  margin: 0 0 12px;
+}
+
+.experience .tag-list { margin-top: 4px; }
+
+/* ==========================================================
    PROJECTS
    ========================================================== */
 .project {
@@ -282,7 +328,7 @@ button:focus-visible {
    ========================================================== */
 .skills__grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 32px;
 }
 .skills__label {
