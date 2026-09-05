@@ -1,81 +1,551 @@
+```html
 <!DOCTYPE html>
-
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dede Wahyu | Portfolio</title>
+
+    <meta name="description" content="Portfolio Dede Wahyu Hidayatuloh - Lulusan SMK RPL dengan pengalaman administrasi, inventory, dan IT.">
+    <meta name="author" content="Dede Wahyu Hidayatuloh">
+
+    <title>Dede Wahyu Hidayatuloh | Portfolio</title>
+
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-```
-<header>
-    <nav>
-        <h2>Dede Wahyu</h2>
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="container nav-container">
 
-        <ul>
-            <li><a href="#tentang">Tentang</a></li>
-            <li><a href="#skill">Skill</a></li>
-            <li><a href="#project">Project</a></li>
-            <li><a href="#kontak">Kontak</a></li>
-        </ul>
-    </nav>
-</header>
+            <a href="#home" class="logo">
+                Dede<span>.</span>
+            </a>
 
-<main>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">Tentang</a>
+                <a href="#experience">Pengalaman</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Project</a>
+                <a href="#contact">Kontak</a>
+            </nav>
 
-    <section class="hero">
-        <h1>Halo, saya Dede Wahyu</h1>
-        <p>SMK Rekayasa Perangkat Lunak | Belajar Web Development</p>
-        <a href="#project" class="button">Lihat Project</a>
-    </section>
-
-    <section id="tentang">
-        <h2>Tentang Saya</h2>
-        <p>
-            Saya adalah lulusan SMK Rekayasa Perangkat Lunak
-            yang sedang mengembangkan kemampuan di bidang teknologi,
-            Git, GitHub, dan web development.
-        </p>
-    </section>
-
-    <section id="skill">
-        <h2>Skill</h2>
-
-        <div class="skills">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>Git</span>
-            <span>GitHub</span>
-            <span>Microsoft Word</span>
-            <span>Microsoft Excel</span>
         </div>
-    </section>
+    </header>
 
-    <section id="project">
-        <h2>Project</h2>
 
-        <div class="project-card">
-            <h3>Belajar GitHub</h3>
+    <main>
+
+        <!-- HERO -->
+        <section id="home" class="hero">
+            <div class="container hero-container">
+
+                <div class="hero-content">
+
+                    <p class="hero-label">HALO, SAYA</p>
+
+                    <h1>
+                        Dede Wahyu<br>
+                        <span>Hidayatuloh</span>
+                    </h1>
+
+                    <h2>
+                        Lulusan SMK RPL &amp; Profesional Muda
+                    </h2>
+
+                    <p class="hero-description">
+                        Memiliki pengalaman di bidang administrasi, inventory,
+                        retail, dan IT. Senang belajar hal baru serta terus
+                        mengembangkan kemampuan di bidang teknologi dan digital.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            Lihat Project
+                        </a>
+
+                        <a href="#contact" class="btn btn-secondary">
+                            Hubungi Saya
+                        </a>
+                    </div>
+
+                </div>
+
+
+                <div class="hero-card">
+
+                    <div class="profile-circle">
+                        DW
+                    </div>
+
+                    <div class="hero-card-content">
+                        <span>OPEN TO WORK</span>
+                        <h3>Ready to Grow</h3>
+                        <p>
+                            Terbuka untuk peluang kerja dan pengalaman baru.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ABOUT -->
+        <section id="about" class="section">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="section-label">TENTANG SAYA</p>
+                    <h2>Mengenal Saya Lebih Dekat</h2>
+                </div>
+
+
+                <div class="about-grid">
+
+                    <div class="about-text">
+                        <p>
+                            Saya adalah lulusan SMK jurusan Rekayasa Perangkat
+                            Lunak (RPL) tahun 2024 yang memiliki semangat belajar
+                            tinggi dan ketertarikan pada dunia teknologi,
+                            administrasi, dan operasional.
+                        </p>
+
+                        <p>
+                            Saya memiliki pengalaman sebagai IT Administrator
+                            Intern serta Store Crew. Dari pengalaman tersebut,
+                            saya terbiasa bekerja dengan data, administrasi,
+                            inventory, stock opname, serta bekerja secara
+                            teliti dan terorganisir.
+                        </p>
+
+                        <p>
+                            Saat ini saya terus mengembangkan kemampuan,
+                            khususnya dalam penggunaan teknologi, website,
+                            Git, dan GitHub.
+                        </p>
+                    </div>
+
+
+                    <div class="about-info">
+
+                        <div class="info-item">
+                            <span>🎓</span>
+                            <div>
+                                <strong>Pendidikan</strong>
+                                <p>SMK - Rekayasa Perangkat Lunak</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <span>📅</span>
+                            <div>
+                                <strong>Lulus</strong>
+                                <p>2024</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <span>💻</span>
+                            <div>
+                                <strong>Fokus</strong>
+                                <p>IT, Administrasi &amp; Digital</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <span>📍</span>
+                            <div>
+                                <strong>Domisili</strong>
+                                <p>Indonesia</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- EXPERIENCE -->
+        <section id="experience" class="section section-dark">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="section-label">PENGALAMAN</p>
+                    <h2>Perjalanan Profesional</h2>
+                </div>
+
+
+                <div class="timeline">
+
+                    <!-- EXPERIENCE 1 -->
+                    <div class="timeline-item">
+
+                        <div class="timeline-dot"></div>
+
+                        <div class="timeline-content">
+
+                            <span class="timeline-date">
+                                2024 — 2025
+                            </span>
+
+                            <h3>Store Crew</h3>
+
+                            <h4>
+                                PT Sumber Alfaria Trijaya
+                            </h4>
+
+                            <p>
+                                Bertanggung jawab terhadap aktivitas operasional
+                                toko, administrasi, pengelolaan barang,
+                                stock opname, display produk, serta pelayanan
+                                pelanggan.
+                            </p>
+
+                            <div class="tag-container">
+                                <span>Inventory</span>
+                                <span>Stock Opname</span>
+                                <span>Administrasi</span>
+                                <span>Customer Service</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- EXPERIENCE 2 -->
+                    <div class="timeline-item">
+
+                        <div class="timeline-dot"></div>
+
+                        <div class="timeline-content">
+
+                            <span class="timeline-date">
+                                2024
+                            </span>
+
+                            <h3>IT Administrator Intern</h3>
+
+                            <h4>
+                                PT Sawarga Digital Indonesia
+                            </h4>
+
+                            <p>
+                                Membantu pekerjaan administrasi dan pengelolaan
+                                data selama masa praktik kerja lapangan serta
+                                memastikan pencatatan data dilakukan secara
+                                teliti dan terorganisir.
+                            </p>
+
+                            <div class="tag-container">
+                                <span>IT</span>
+                                <span>Data Entry</span>
+                                <span>Administrasi</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- SKILLS -->
+        <section id="skills" class="section">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="section-label">KEMAMPUAN</p>
+                    <h2>Skills yang Saya Miliki</h2>
+                </div>
+
+
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+                        <div class="skill-icon">💻</div>
+                        <h3>Microsoft Office</h3>
+                        <p>
+                            Microsoft Word, Excel, dan PowerPoint untuk
+                            kebutuhan administrasi dan pengolahan data.
+                        </p>
+                    </div>
+
+
+                    <div class="skill-card">
+                        <div class="skill-icon">📦</div>
+                        <h3>Inventory</h3>
+                        <p>
+                            Stock opname, monitoring barang masuk dan keluar,
+                            serta pengelolaan inventory.
+                        </p>
+                    </div>
+
+
+                    <div class="skill-card">
+                        <div class="skill-icon">📊</div>
+                        <h3>Administrasi</h3>
+                        <p>
+                            Data entry, pencatatan, pengarsipan, dan
+                            pengelolaan dokumen.
+                        </p>
+                    </div>
+
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🌐</div>
+                        <h3>Web Development</h3>
+                        <p>
+                            HTML, CSS, dasar JavaScript serta pengembangan
+                            website sederhana.
+                        </p>
+                    </div>
+
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🔧</div>
+                        <h3>Git &amp; GitHub</h3>
+                        <p>
+                            Repository, branch, commit, merge, pull request,
+                            dan GitHub Pages.
+                        </p>
+                    </div>
+
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🤝</div>
+                        <h3>Soft Skills</h3>
+                        <p>
+                            Teliti, disiplin, mampu bekerja dalam tim,
+                            adaptif, dan memiliki kemauan belajar.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- PROJECT -->
+        <section id="projects" class="section section-dark">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="section-label">PROJECT</p>
+                    <h2>Project yang Saya Kerjakan</h2>
+                </div>
+
+
+                <div class="projects-grid">
+
+                    <article class="project-card">
+
+                        <div class="project-number">
+                            01
+                        </div>
+
+                        <div class="project-content">
+
+                            <span class="project-type">
+                                WEBSITE
+                            </span>
+
+                            <h3>Personal Portfolio</h3>
+
+                            <p>
+                                Website portfolio pribadi untuk menampilkan
+                                profil, pengalaman, skills, dan project
+                                menggunakan HTML dan CSS.
+                            </p>
+
+                            <div class="tag-container">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Git</span>
+                                <span>GitHub Pages</span>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card">
+
+                        <div class="project-number">
+                            02
+                        </div>
+
+                        <div class="project-content">
+
+                            <span class="project-type">
+                                LEARNING
+                            </span>
+
+                            <h3>Git &amp; GitHub Learning</h3>
+
+                            <p>
+                                Project pembelajaran untuk memahami workflow
+                                Git seperti branch, commit, merge conflict,
+                                pull request, dan deployment.
+                            </p>
+
+                            <div class="tag-container">
+                                <span>Git</span>
+                                <span>GitHub</span>
+                                <span>Branch</span>
+                                <span>Pull Request</span>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card">
+
+                        <div class="project-number">
+                            03
+                        </div>
+
+                        <div class="project-content">
+
+                            <span class="project-type">
+                                NEXT PROJECT
+                            </span>
+
+                            <h3>Coming Soon</h3>
+
+                            <p>
+                                Project berikutnya akan ditambahkan setelah
+                                saya menyelesaikan pembelajaran dan
+                                pengembangan project baru.
+                            </p>
+
+                            <div class="tag-container">
+                                <span>Learning</span>
+                                <span>Development</span>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- CONTACT -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+
+                <div class="contact-box">
+
+                    <div class="contact-content">
+
+                        <p class="section-label">
+                            HUBUNGI SAYA
+                        </p>
+
+                        <h2>
+                            Mari Terhubung dan Berkolaborasi
+                        </h2>
+
+                        <p>
+                            Jika Anda tertarik untuk berdiskusi mengenai
+                            peluang kerja, project, atau kolaborasi,
+                            silakan hubungi saya.
+                        </p>
+
+                    </div>
+
+
+                    <div class="contact-links">
+
+                        <!-- Ganti email di bawah dengan email kamu -->
+                        <a
+                            href="mailto:email-kamu@example.com"
+                            class="contact-item"
+                        >
+                            <span>✉️</span>
+                            <div>
+                                <small>Email</small>
+                                <strong>email-kamu@example.com</strong>
+                            </div>
+                        </a>
+
+
+                        <!-- Ganti username GitHub jika diperlukan -->
+                        <a
+                            href="https://github.com/deewayy"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="contact-item"
+                        >
+                            <span>🐙</span>
+                            <div>
+                                <small>GitHub</small>
+                                <strong>github.com/deewayy</strong>
+                            </div>
+                        </a>
+
+
+                        <a
+                            href="https://deewayy.github.io/belajar-github/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="contact-item"
+                        >
+                            <span>🌐</span>
+                            <div>
+                                <small>Portfolio</small>
+                                <strong>deewayy.github.io</strong>
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container footer-container">
+
             <p>
-                Project latihan untuk mempelajari Git, GitHub,
-                branch, commit, push, pull, merge, dan merge conflict.
+                © 2026 Dede Wahyu Hidayatuloh. All Rights Reserved.
             </p>
+
+            <a href="#home">
+                Kembali ke atas ↑
+            </a>
+
         </div>
-    </section>
-
-    <section id="kontak">
-        <h2>Kontak</h2>
-        <p>Email: email-kamu@example.com</p>
-    </section>
-
-</main>
-
-<footer>
-    <p>© 2026 Dede Wahyu</p>
-</footer>
-```
+    </footer>
 
 </body>
 </html>
+```
